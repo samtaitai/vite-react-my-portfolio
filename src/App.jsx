@@ -8,12 +8,14 @@ import ScrollToTop from './components/ScrollToTop'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import './App.css'
+import Loader from './components/Loader'
 
 const App = () => {
   const [{ themeName }] = useContext(ThemeContext)
 
   return (
-    <div id='top' className={`${themeName} app`}>
+    <Loader>
+      <div id='top' className={`${themeName} app`}>
       <Header />
 
       <main>
@@ -25,7 +27,8 @@ const App = () => {
 
       <ScrollToTop />
       <Footer />
-    </div>
+      </div>
+    </Loader>
   )
 }
 

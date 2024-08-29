@@ -10,7 +10,6 @@ const header = {
     role: 'Junior Software Developer',
     description:
       'Motivated Computer Science student with a strong foundation in software development practices and object-oriented programming. Proficient in Python, Java, and C#, with hands-on experience in Git and Jira. Demonstrates a solid understanding of various testing strategies and continuous integration principles. Eager to apply classroom knowledge and practical skills to real-world software development projects.',
-    resume: 'https://example.com',
     social: {
       linkedin: 'https://www.linkedin.com/in/soyonlee/',
       github: 'https://github.com/samtaitai',
@@ -21,42 +20,32 @@ const header = {
     // projects can be added an removed
     // if there are no projects, Projects section won't show up
     {
-      name: 'Project 1',
+      name: 'Journal App',
       description:
-        'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-      stack: ['SASS', 'TypeScript', 'React'],
-      sourceCode: 'https://github.com',
-      livePreview: 'https://github.com',
-    },
-    {
-      name: 'Project 2',
-      description:
-        'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-      stack: ['SASS', 'TypeScript', 'React'],
-      sourceCode: 'https://github.com',
-      livePreview: 'https://github.com',
-    },
-    {
-      name: 'Project 3',
-      description:
-        'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-      stack: ['SASS', 'TypeScript', 'React'],
-      sourceCode: 'https://github.com',
-      livePreview: 'https://github.com',
+        'A personal micro journal web app. Each user enjoys the freedom to create, edit, and delete their notes, while the app ensures data integrity and privacy through Firestore security rules.',
+      stack: ['JavaScript', 'ExpressJS', 'Vue', 'MongoDB'],
+      sourceCode: 'https://github.com/samtaitai/vue_microjournal_withPinia',
+      livePreview: 'https://moteballs.web.app/#/auth',
     },
   ]
   
   const skills = [
     // skills can be added or removed
     // if there are no skills, Skills section won't show up
-    'HTML',
-    'CSS',
+    'HTML/CSS',
     'JavaScript',
-    'TypeScript',
+    'Python',
+    'Java',
+    'C#',
+    'SQL',
     'React',
+    'Vue',
     'Git',
     'CI/CD',
     'Jest',
+    'Azure',
+    'AWS',
+    'Docker',
   ]
   
   const contact = {
